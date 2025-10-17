@@ -1,3 +1,23 @@
+# [4.19.0](https://github.com/ezyang/htmlpurifier/compare/v4.18.0...v4.19.0) (2025-10-17)
+
+
+### Bug Fixes
+
+* add warning for misleading option ([#433](https://github.com/ezyang/htmlpurifier/issues/433)) ([b21a591](https://github.com/ezyang/htmlpurifier/commit/b21a59101fe8b3e68185f4929a0bc44f4eb36653))
+* catastrophic backtracking in Core.AggressivelyFixLt ([#440](https://github.com/ezyang/htmlpurifier/issues/440)) ([418eeb7](https://github.com/ezyang/htmlpurifier/commit/418eeb7dc0e16a8cbba4393bf8f51aa91f9112f9))
+* Deprecated: preg_replace(): Passing null to parameter [#3](https://github.com/ezyang/htmlpurifier/issues/3) ($subject) o… ([#421](https://github.com/ezyang/htmlpurifier/issues/421)) ([5d154a2](https://github.com/ezyang/htmlpurifier/commit/5d154a239367e8886a1d1d67d68ff015cafa6814))
+* non-substantive typos ([#434](https://github.com/ezyang/htmlpurifier/issues/434)) ([c2bc354](https://github.com/ezyang/htmlpurifier/commit/c2bc3549a392722ab3b5aa4de973673db9e1708f))
+
+
+### Features
+
+* Add CSS direction support ([#429](https://github.com/ezyang/htmlpurifier/issues/429)) ([63e631e](https://github.com/ezyang/htmlpurifier/commit/63e631ebd34f40d702adfb61fe00a5c9631ba443))
+* Add option for safe iframe hosts using array lookup ([#423](https://github.com/ezyang/htmlpurifier/issues/423)) ([b5cbf0c](https://github.com/ezyang/htmlpurifier/commit/b5cbf0cc3da70ded91e8b118e2a582026b1e6d61))
+* Allow more image widths by default ([#430](https://github.com/ezyang/htmlpurifier/issues/430)) ([00a0748](https://github.com/ezyang/htmlpurifier/commit/00a0748427d08e0c462e65cdd192bdc921c532ac))
+* Define option URI.AllowedSymbols ([#447](https://github.com/ezyang/htmlpurifier/issues/447)) ([77ebd08](https://github.com/ezyang/htmlpurifier/commit/77ebd086321fb68bbcdb65f3c68ce15d23573172))
+* PHP 8.4 support ([#441](https://github.com/ezyang/htmlpurifier/issues/441)) ([ff005f6](https://github.com/ezyang/htmlpurifier/commit/ff005f6edc4d55f03d756c2d25141c4278286137))
+* Support PHP 8.5 versions ([#453](https://github.com/ezyang/htmlpurifier/issues/453)) ([1eb05d9](https://github.com/ezyang/htmlpurifier/commit/1eb05d9864620e926535ce2131803acd2a6d7a4d))
+
 # [4.18.0](https://github.com/ezyang/htmlpurifier/compare/v4.17.0...v4.18.0) (2024-11-01)
 
 
